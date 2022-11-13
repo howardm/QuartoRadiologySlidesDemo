@@ -103,3 +103,18 @@ Do you want to indicate something on an image ?
 Do so with the Notes Canvas overlay as shown below! Remove the overlay by right-clicking and erasing it, or use the "delete" keyboard key.
 
 ![](images/NotesCanvas.jpg){fig-align="center" width="680"}
+
+## Testing tables
+
+<br>
+
+Differentiating patterns of edema
+
+<br>
+
+|                                                 | [**Cardiac (hydrostatic) edema**]{style="color: blue;"} | [**Hypervolemic (hydrostatic) edema**]{style="color: blue;"} | [**Acute Lung Injury Edema**]{style="color: blue;"} |
+|------------------|------------------|------------------|------------------|
+| [Blood flow distribution]{style="color: grey;"} | Inversion^1^                                            | Balanced                                                     | Normal                                              |
+| [Interstitial edema]{style="color: grey;"}      | Yes                                                     | Yes                                                          | No or minimal                                       |
+
+[1. If chronic pulmonary venous hypertension is present.]{style="font-size: 18px;"}
