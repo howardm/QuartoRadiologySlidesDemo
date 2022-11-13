@@ -92,7 +92,7 @@ Discussion of the findings and diagnosis
 
 ## Testing a link to a case at Pacsbin.com
 
-[Click this link for a case at Pacsbin](https://www.pacsbin.com/c/Zkn_aykNJd){preview-link="true"}
+[Click this link](https://www.pacsbin.com/c/Zkn_aykNJd){preview-link="true"} for a case at Pacsbin.
 
 Be patient. The DICOM case takes a while to load. When you're done, click the `X` at the top-right of the loaded page to return to the presentation.
 
