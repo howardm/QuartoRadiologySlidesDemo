@@ -1,7 +1,4 @@
 ---
-title: "Quarto Radiology Slides Demonstration"
-author:
-  - Howard Mann, M.D., Department of Radiology and Imaging Sciences | University of Uath
 format: 
   revealjs:
     logo: images/circle-cropped.png
@@ -12,11 +9,29 @@ format:
 editor: visual
 ---
 
+<h1>Radiology Presentation with Quarto</h1>
+
+<hr>
+
+<br>
+
+<h2>Howard Mann, M.D.</h2>
+
+<h2>Department of Radiology and Imaging Sciences</h2>
+
+<br><br><br><br><br>
+
+<h2>`r fontawesome::fa("envelope", "white")`   howard.mann\@utah.edu</h2>
+
+<h2>`r fontawesome::fa("link", "white")`   [howardmann.us](http://howardmann.us)</h2>
+
+![](images/SOMLogo.jpg){.absolute top="325" right="130" width="275"}
+
 ## Introduction
 
 <br>
 
-This is a test of Quarto's revealjs for creating a slide presentation using the default theme.
+This is a test of Quarto's revealjs for creating a slide presentation.
 
 External links will open in a new browser tab: [my home page](http://howardmann.us)
 
@@ -55,13 +70,13 @@ Incremental display of findings and explanation (customized blue font)
 ::: panel-tabset
 ### Presentation
 
-A 47-year-old person with chest pain
+Details about the clinical presentation
 
-### Image
+### Chest Radiograph
 
 ![](images/CXR.jpg){fig-align="center" width="584"}
 
-### Pacsbin embed
+### Pacsbin embed of a chest CT
 
 ```{=html}
 <div style="text-align:center;">
@@ -75,7 +90,7 @@ A 47-year-old person with chest pain
 Discussion of the findings and diagnosis
 :::
 
-## Pacsbin embed again
+## Pacsbin test embed again
 
 <br>
 
@@ -94,13 +109,17 @@ Discussion of the findings and diagnosis
 
 [Click this link](https://www.pacsbin.com/c/Zkn_aykNJd){preview-link="true"} for a case at Pacsbin.
 
+<br>
+
 Be patient. The DICOM case takes a while to load. When you're done, click the `X` at the top-right of the loaded page to return to the presentation.
 
 ## Writing on a slide
 
 Do you want to indicate something on an image ?
 
-Do so with the Notes Canvas overlay as shown below! Remove the overlay by right-clicking and erasing it, or use the "delete" keyboard key.
+Do so with the Notes Canvas overlay as shown below! Remove the overlay with a right-click-hold and erasing it, or use the "delete" keyboard key.
+
+<br>
 
 ![](images/NotesCanvas.jpg){fig-align="center" width="680"}
 
@@ -113,8 +132,10 @@ Differentiating patterns of edema
 <br>
 
 |                                                 | [**Cardiac (hydrostatic) edema**]{style="color: blue;"} | [**Hypervolemic (hydrostatic) edema**]{style="color: blue;"} | [**Acute Lung Injury Edema**]{style="color: blue;"} |
-|------------------|------------------|------------------|------------------|
+|-------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------|
 | [Blood flow distribution]{style="color: grey;"} | Inversion^1^                                            | Balanced                                                     | Normal                                              |
 | [Interstitial edema]{style="color: grey;"}      | Yes                                                     | Yes                                                          | No or minimal                                       |
+
+<br>
 
 [1. If chronic pulmonary venous hypertension is present.]{style="font-size: 18px;"}
