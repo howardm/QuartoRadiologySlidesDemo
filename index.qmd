@@ -6,6 +6,8 @@ format:
     theme: [dark, mycustom.scss]
     slide-number: c/t
     chalkboard: true
+    filters:
+      - designmode
 editor: visual
 ---
 
@@ -132,7 +134,7 @@ Differentiating patterns of edema
 <br>
 
 |                                                 | [**Cardiac (hydrostatic) edema**]{style="color: blue;"} | [**Hypervolemic (hydrostatic) edema**]{style="color: blue;"} | [**Acute Lung Injury Edema**]{style="color: blue;"} |
-|-------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------|
+|------------------|------------------|--------------------|------------------|
 | [Blood flow distribution]{style="color: grey;"} | Inversion^1^                                            | Balanced                                                     | Normal                                              |
 | [Interstitial edema]{style="color: grey;"}      | Yes                                                     | Yes                                                          | No or minimal                                       |
 
