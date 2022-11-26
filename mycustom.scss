@@ -20,11 +20,16 @@ $headingTextTransform: none;
 
 // Primary/body text
 $mainFont: 'Jost', sans-serif;
-$mainFontSize: 26px;
+$mainFontSize: 28px;
 
 // Links and actions
 $linkColor: #0d757b;
 $linkColorHover: darken( $linkColor, 10% );
+
+// Code box background color and font size
+
+$code-block-bg: #9eb4cc;
+$code-block-font-size: 0.75em;
 
 // start using css here
 

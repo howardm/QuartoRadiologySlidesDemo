@@ -5,7 +5,8 @@ format:
     link-external-newwindow: true
     theme: [dark, mycustom.scss]
     slide-number: c/t
-    chalkboard: true
+    code-line-numbers: false
+    chalkboard: false
     filters:
       - designmode
 editor: visual
@@ -89,10 +90,16 @@ Details about the clinical presentation
 ```
 ### Explanation
 
-Discussion of the findings and diagnosis
+Discussion of the findings.
+
+```markdown
+A code block for an important teaching point
+```
+
 :::
 
 ## Pacsbin test embed again
+
 
 <br>
 
@@ -103,6 +110,8 @@ Discussion of the findings and diagnosis
          style="width: 575px; height: 575px; border: 0;"></iframe>
 </div>         
 ```
+
+
 ::: aside
 *This is so cool!*
 :::
@@ -134,7 +143,7 @@ Differentiating patterns of edema
 <br>
 
 |                                                 | [**Cardiac (hydrostatic) edema**]{style="color: blue;"} | [**Hypervolemic (hydrostatic) edema**]{style="color: blue;"} | [**Acute Lung Injury Edema**]{style="color: blue;"} |
-|------------------|------------------|--------------------|------------------|
+|------------------|------------------|-------------------|------------------|
 | [Blood flow distribution]{style="color: grey;"} | Inversion^1^                                            | Balanced                                                     | Normal                                              |
 | [Interstitial edema]{style="color: grey;"}      | Yes                                                     | Yes                                                          | No or minimal                                       |
 
