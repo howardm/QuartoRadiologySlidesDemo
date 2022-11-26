@@ -6,9 +6,7 @@ format:
     theme: [dark, mycustom.scss]
     slide-number: c/t
     code-line-numbers: false
-    chalkboard: false
-    filters:
-      - designmode
+    chalkboard: true
 editor: visual
 ---
 
@@ -90,16 +88,25 @@ Details about the clinical presentation
 ```
 ### Explanation
 
-Discussion of the findings.
+::: columns
+::: {.column width="40%"}
+<br>
 
-```markdown
-A code block for an important teaching point
+``` default
+Key points in box  
+
+• number one  
+• number two
 ```
+:::
 
+::: {.column width="60%"}
+![](images/CXR.jpg){fig-align="center" width="520"}
+:::
+:::
 :::
 
 ## Pacsbin test embed again
-
 
 <br>
 
@@ -110,8 +117,6 @@ A code block for an important teaching point
          style="width: 575px; height: 575px; border: 0;"></iframe>
 </div>         
 ```
-
-
 ::: aside
 *This is so cool!*
 :::
@@ -142,10 +147,10 @@ Differentiating patterns of edema
 
 <br>
 
-|                                                 | [**Cardiac (hydrostatic) edema**]{style="color: blue;"} | [**Hypervolemic (hydrostatic) edema**]{style="color: blue;"} | [**Acute Lung Injury Edema**]{style="color: blue;"} |
-|------------------|------------------|-------------------|------------------|
-| [Blood flow distribution]{style="color: grey;"} | Inversion^1^                                            | Balanced                                                     | Normal                                              |
-| [Interstitial edema]{style="color: grey;"}      | Yes                                                     | Yes                                                          | No or minimal                                       |
+|                                                 | [**Cardiac (hydrostatic) edema**]{style="color: #4484ba;"} | [**Hypervolemic (hydrostatic) edema**]{style="color: #4484ba;"} | [**Acute Lung Injury Edema**]{style="color: #4484ba;"} |
+|------------------|------------------|-------------------|:----------------:|
+| [Blood flow distribution]{style="color: grey;"} | Inversion^1^                                               | Balanced                                                        |                         Normal                         |
+| [Interstitial edema]{style="color: grey;"}      | Yes                                                        | Yes                                                             |                     No or minimal                      |
 
 <br>
 
