@@ -36,6 +36,7 @@ This is a test of Quarto's revealjs for creating a slide presentation.
 
 External links will open in a new browser tab: [my home page](http://howardmann.us)
 
+
 ## Testing insertion of an image
 
 <br>
@@ -57,6 +58,8 @@ Incremental display of findings and explanation (customized blue font)
 -   Point #2
 
 -   Point #3
+
+
 :::
 :::
 :::
@@ -98,6 +101,18 @@ Key points in box
 • number one  
 • number two
 ```
+
+Another method with a Callout Box
+
+::: {.callout-note icon=false}
+
+## Keypoints
+- keypoint one  
+- keypoint two
+
+:::
+
+
 :::
 
 ::: {.column width="60%"}
@@ -143,15 +158,15 @@ Do so with the Notes Canvas overlay as shown below! Remove the overlay with a ri
 
 <br>
 
-Differentiating patterns of edema
-
-<br>
-
 |                                                 | [**Cardiac (hydrostatic) edema**]{style="color: #4484ba;"} | [**Hypervolemic (hydrostatic) edema**]{style="color: #4484ba;"} | [**Acute Lung Injury Edema**]{style="color: #4484ba;"} |
 |------------------|------------------|-------------------|:----------------:|
 | [Blood flow distribution]{style="color: grey;"} | Inversion^1^                                               | Balanced                                                        |                         Normal                         |
 | [Interstitial edema]{style="color: grey;"}      | Yes                                                        | Yes                                                             |                     No or minimal                      |
 
+: **Differentiating types of lung edema**
+
 <br>
 
 [1. If chronic pulmonary venous hypertension is present.]{style="font-size: 18px;"}
+
+
