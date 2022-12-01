@@ -20,13 +20,13 @@ editor: visual
 
 <h2>Department of Radiology and Imaging Sciences</h2>
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 <h2>`r fontawesome::fa("envelope", "white")`   howard.mann\@utah.edu</h2>
 
 <h2>`r fontawesome::fa("link", "white")`   [howardmann.us](http://howardmann.us)</h2>
 
-![](images/SOMLogo.jpg){.absolute top="325" right="130" width="275"}
+![](images/UhealthLogo.jpg){.absolute top="395" right="130" width="325"}
 
 ## Introduction
 
@@ -36,6 +36,10 @@ This is a test of Quarto's revealjs for creating a slide presentation.
 
 External links will open in a new browser tab: [my home page](http://howardmann.us)
 
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
 
 ## Testing insertion of an image
 
@@ -95,7 +99,7 @@ Details about the clinical presentation
 ::: {.column width="40%"}
 <br>
 
-``` default
+```default
 Key points in box  
 
 • number one  
@@ -106,9 +110,10 @@ Another method with a Callout Box
 
 ::: {.callout-note icon=false}
 
-## Keypoints
-- keypoint one  
-- keypoint two
+## Key Points  
+
+- key point one  
+- key point two
 
 :::
 
@@ -148,7 +153,7 @@ Be patient. The DICOM case takes a while to load. When you're done, click the `X
 
 Do you want to indicate something on an image ?
 
-Do so with the Notes Canvas overlay as shown below! Remove the overlay with a right-click-hold and erasing it, or use the "delete" keyboard key.
+Do so with the Notes Canvas overlay as shown below. Remove the overlay with a right-click-hold and erasing it, or use the `delete` keyboard key. Try it on this slide!
 
 <br>
 
@@ -163,7 +168,7 @@ Do so with the Notes Canvas overlay as shown below! Remove the overlay with a ri
 | [Blood flow distribution]{style="color: grey;"} | Inversion^1^                                               | Balanced                                                        |                         Normal                         |
 | [Interstitial edema]{style="color: grey;"}      | Yes                                                        | Yes                                                             |                     No or minimal                      |
 
-: **Differentiating types of lung edema**
+: [Differentiating types of lung edema]{.ul}
 
 <br>
 
