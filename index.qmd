@@ -32,13 +32,14 @@ editor: visual
 
 <br>
 
-This is a test of Quarto's revealjs for creating a slide presentation.
+This is a test of Quarto's revealjs for creating a slide presentation.  
+
 
 External links will open in a new browser tab: [my home page](http://howardmann.us)
 
 
 ::: aside
-Some additional commentary of more peripheral interest.
+A footnote: Some additional commentary of more peripheral interest.
 :::
 
 ## Testing insertion of an image
@@ -71,6 +72,7 @@ Incremental display of findings and explanation (customized blue font)
 ::: {.column width="60%"}
 ![Acquired on the day of admission](images/CXR.jpg){fig-align="center" width="712"}
 :::
+
 :::
 
 ## A tabset suitable for presentation of a case
@@ -79,6 +81,15 @@ Incremental display of findings and explanation (customized blue font)
 ### Presentation
 
 Details about the clinical presentation
+
+
+• Detail number one
+
+• Detail number two
+
+
+
+
 
 ### Chest Radiograph
 
@@ -115,6 +126,10 @@ Another method with a Callout Box
 - key point one  
 - key point two
 
+:::
+
+::: {.callout-note appearance="minimal"}
+A minimal callout note
 :::
 
 
@@ -173,5 +188,16 @@ Do so with the Notes Canvas overlay as shown below. Remove the overlay with a ri
 <br>
 
 [1. If chronic pulmonary venous hypertension is present.]{style="font-size: 18px;"}
+
+## Diagrams
+
+```{dot}
+graph G {
+ANCA -- GPA;
+ANCA -- MPA;
+ANCA -- eGPA;
+}
+```
+
 
 
