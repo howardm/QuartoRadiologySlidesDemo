@@ -95,7 +95,7 @@ Details about the clinical presentation
 
 ![](images/CXR.jpg){fig-align="center" width="584"}
 
-### Pacsbin embed of a chest CT
+### Chest CT
 
 ```{=html}
 <div style="text-align:center;">
